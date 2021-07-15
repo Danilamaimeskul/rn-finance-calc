@@ -11,10 +11,11 @@ export const  Header = (props) => {
 
 const styles = StyleSheet.create({
     header: {
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
         alignItems: 'center',
         backgroundColor: 'skyblue',
-        height: 60
+        height: 70,
+        paddingBottom: 5
     },
     title: {
         fontSize: 30,
